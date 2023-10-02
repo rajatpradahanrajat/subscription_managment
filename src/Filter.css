@@ -1,0 +1,14 @@
+.filter_banner_div{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+    
+}
+.select_div{
+    width: 10%;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}

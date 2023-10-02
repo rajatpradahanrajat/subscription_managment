@@ -1,0 +1,100 @@
+.form{
+    border: 1px solid black;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: skyblue;
+    margin: 100px auto;
+    height: 250px;
+    padding: 7px;
+    border-radius: 8px;
+    z-index: 0;
+    position: relative;
+    
+}
+.title_dt_section{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: start;
+    align-items: start;
+    /* border: 1px solid black; */
+    width: 50%;
+    /* margin-right: 10px; */
+}
+.inp_title{
+    width: 420%;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.inp_date{
+    width: 50%;
+    padding: 4px;  
+    margin-left: 180px; 
+    font-size: 16px;
+}
+.inp_amount{
+    width: 22%;
+    padding: 4px;   
+    font-size: 16px;
+    
+}
+
+/* Button section */
+
+.btn_section{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin-left: 600px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.cancel{
+    padding: 10px 10px;
+    width: 40%;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+     margin-right: 0px auto;
+     /* justify-content: space-between; */
+    /* margin-left: 180px; */
+}
+.save{
+    padding: 14px 10px;
+    width: 50%;
+    border: none;
+    background-color: navy;
+    border-radius: 7px;
+    color: white;
+    margin-right: 300px;
+    /* margin: 10px; */
+}
+.add_new{
+    width: 13%;
+    padding: 14px 10px;
+    border: none;
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+    margin-left: 370px;
+}
+label{
+    font-weight: bolder;
+}
+.date_label{
+    margin-left: 180px;
+}
+.hide_btn{
+    width: 8%;
+    padding: 12px 10px;
+    
+    border: none;
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+    margin-left: 650px;
+}
